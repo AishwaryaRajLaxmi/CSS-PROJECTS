@@ -1,0 +1,86 @@
+*{
+    padding:0;
+     margin:0;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url("https://miro.medium.com/max/1200/1*AcYLHh0_ve4TNRi6HLFcPA.jpeg");
+    background-repeat:repeat-x;
+}
+
+.content-container{
+    /* display:flex; */
+    text-align: center;
+    margin-top:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-container h1{
+    margin-bottom: 10px;
+}
+
+.content-container p{
+    margin:0 200px 0 200px;
+}
+
+/* .contact-container{
+    padding:50px 0 0 90px;
+} */
+
+.content1{
+    margin-bottom:30px;
+}
+
+.form-container{
+    display:flex;
+    font-family: arial;
+}
+
+.form-container .form{
+    background-color: white;
+    padding:20px;
+    border-radius:2px;
+}
+
+.form label{
+    display:block;
+    size:19px;
+    color:grey;
+    padding:10px 0;
+   
+}
+
+.display-container{
+    display: flex;
+    justify-content: space-between;
+    margin:90px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="textarea"]{
+    padding:7px 7px;
+    border-radius: 3px;
+     border:none;
+     border-bottom:1px;
+     border-color: rgb(61, 56, 56);
+     border-style:solid;
+   }
+
+   button{
+    /* padding:10px; */
+    border:0;
+    padding:10px 20px;
+    border-radius: 2px;
+    margin-top:10px;
+    background-color:violet;
+    font-size:19px;
+    cursor:pointer;
+    transition: all 0.3s;
+   }
+
+   button:hover{
+    color:blue;
+    background-color:pink;
+   }

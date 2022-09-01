@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #f0932b;
+    --color: #eaeaea;
+    --logo-color: #192a56;
+  }
+
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+  }
+
+  body{
+    background-color: var(--color);
+  }
+
+  .header{
+    background-color:var(--primary-color);
+    padding:0 40px;
+  }
+
+  .header .nav-bar{
+    height:80px;
+     display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+
+  .nav-bar .nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    list-style: none;
+  }
+
+  .nav-list a{
+    color:var(--logo-color);
+    text-decoration: none;
+  }
+
+  .nav-bar .nav-list button{
+    color:var(--primary-color);
+    background-color: var(--logo-color);
+    border:none;
+    padding:8px 15px;
+    border-radius: 5px;
+    cursor:pointer;
+
+  }
+
+  .nav-bar .logo{
+    text-decoration: none;
+    border:2px solid var(--logo-color);
+    padding:7px 8px;
+    color:var(--logo-color);
+    transition: 0.3s;
+    border-radius: 2px;
+  }
+
+  .nav-bar .logo:hover{
+    color:var(--primary-color);
+    background-color: var(--logo-color);
+  }
+
+
+  .main-content{
+    display: flex;
+    justify-content: space-between;
+    height:490px;
+    padding:0 200px;
+  }
+
+.content{
+    margin-top: 60px;
+}
+
+.main-heading{
+    font-size:70px;
+    color:var(--logo-color);
+
+}
+
+.sub-heading
+{
+    font-size: 50px;
+    color:var(--logo-color);
+}
+
+.content .sub-heading span{
+    color:orange;
+}
+
+content .designation{
+    color:var(--logo-color);
+    margin: top 20px;
+    font-size:30px;
+
+}
+
+.designation span{
+    color:purple;
+}
+
+.main-content image img{
+    height:490px;
+
+}
+
+.content button{
+    background-color: var(--logo-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    padding:10px 20px;
+    font-size:20px;
+    margin-top:20px;
+}
+
+.content button:hover{
+   background-color:orange;
+   color: var(--logo-color);
+}
+
+.content .social-links{
+    margin-top: 30px;
+}
+
+.content .social-links a{
+    background-color: var(--logo-color);
+    padding:10px 12px;
+    border-radius: 50%;
+    color:orange;
+    transition: 0.2s;
+}
+
+
+.content .social-links a:hover{
+    color:var(--logo-color);
+    background-color: orange;
+}
+
